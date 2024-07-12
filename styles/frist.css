@@ -18,10 +18,104 @@
 .banner-image{
     width: 100%;
 }
-
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(255, 239, 9);
+    width: 160px;
+    height: 64px
+}
 
  .banner{
     position: relative;
  }
-
+ .main-section{
+    padding: 25px 200px 130px 128px;
+ }
+ .main-descrition{
+    
+     position: absolute;
+     
+     
+     left: 862px;
+     
+     
+     bottom: -654.7px;
+     text-align: center;
+     color: rgb(21, 20, 20);
+ }
+.navigation{
+    font-size: 40px;
+    line-height: 47px;
+}
+.content{
+    font-size: 16px;
+    font-weight: 400;
+     color: rgb(68, 67, 67);;
+}
  
+/* my plans related styles */
+.container{
+    display: flex;
+    color: rgb(21, 20, 20);
+    font-size: 40px;
+    font-weight: 700;
+  justify-content: space-around;
+}
+.skill-container{
+    display: flex;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.image-item{
+    /* background-image: url("../images/watch.png"); */
+    position: absolute;
+    margin-left: 430px;
+    margin-right: 230px;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.watch{
+    opacity: 10%;
+}
+.gradient{
+    position: absolute;
+    top: 0px;
+}
+.resposive-item{
+    position: relative;
+   opacity: 50%;
+    margin-left: 330px;
+    margin-right: 230px;
+    /* margin-top: 50px; */
+    border-radius: 8px;
+    border-radius: 8px;
+background: linear-gradient(90.00deg, rgb(0, 95, 172),rgba(0, 95, 172, 0) 100%);
+background-image: none;
+position: relative;
+ 
+
+}
+/* .wash-time{
+    margin-top: 50px;
+} */
+ /* footer related styles */
+ footer{
+    display: flex;
+    gap: 100px;
+     /* Dark 01 */
+background: rgb(21, 20, 20);
+    margin-top: 100px;
+    padding: 130px 230px;
+}
+.email{
+     background-color: rgb(21, 20, 20);
+}
+ .footer-column{
+     justify-content:space-between;
+      color: #fff;
+    
+ }
