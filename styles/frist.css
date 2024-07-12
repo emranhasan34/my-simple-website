@@ -1,0 +1,27 @@
+ .description{
+    position: absolute;
+    top: 50%; 
+    right: 50px;
+    font-family: "Poppins", sans-serif;
+     
+    font-weight: 700;
+    
+     
+      
+    color: #fff;
+}
+/* .title-ling{
+    font-size: 65px;
+    font-weight: 700;
+    
+} */
+.banner-image{
+    width: 100%;
+}
+
+
+ .banner{
+    position: relative;
+ }
+
+ 
